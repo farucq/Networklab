@@ -1,0 +1,22 @@
+echo "which state you select:"
+echo "1.kerala"
+echo "2.karnataka"
+echo "3.delhi"
+echo "4.tamilnadu"
+read color
+case $color in
+        1)echo "kochi";;
+        2)echo "mysore";;
+        3)echo "jamamasjid";;
+        4)echo "chennai";;
+esac
+
+output:
+
+which state you select:
+1.kerala
+2.karnataka
+3.delhi
+4.tamilnadu
+3
+jamamasjid
