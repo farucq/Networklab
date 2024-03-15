@@ -1,0 +1,12 @@
+a=1
+s=0
+until [ $a -ge 10 ]
+do
+        a=`expr $a + 1`
+        s=`expr $s + $a`
+done
+echo "sum of first 10 number is $s"
+
+output:
+
+sum of first 10 number is 54
