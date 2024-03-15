@@ -1,0 +1,25 @@
+#!/bin/bash
+select i in LOGNAME  WHOAMI PWD quit
+do
+        case $i in
+                "LOGNAME") echo $LOGNAME;;
+                "WHOAMI") echo $(whoami);;
+                "PWD") echo $PWD;;
+                "quit") break;;
+        esac
+done
+
+output:
+
+1) LOGNAME
+2) WHOAMI
+3) PWD
+4) quit
+#? 1
+mca
+#? 2
+mca
+#? 3
+/Users/mca
+#? 4
+MES1s-Mac-mini:~ mca$ 
